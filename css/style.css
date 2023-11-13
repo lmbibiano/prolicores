@@ -71,7 +71,8 @@ main p{
     color: #D9BAD1;
     font-family: 'Strait', sans-serif;
     font-size: 45px;
-    margin-left: 20px;
+    margin-left: 30px;
+    text-align: left;
 }
 .material-symbols-outlined{
     margin-right: 40px;
@@ -85,6 +86,7 @@ marquee .renglones{
     font-size: 20px;
     color: #da71be !important;
     font-family: "Alumni Sans Inline One", italic;
+    margin-left: 10px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -135,7 +137,7 @@ h2{
     justify-content: space-evenly; */
 }
 .cardio{
-    height: 330px;
+    height: 360px;
     background-color: #D9BAD1;
     border-radius: 15px;
     margin: auto;
@@ -157,6 +159,17 @@ h2{
     list-style: none;
     font-family: 'Strait', sans-serif;
     color:#401234;
+
+}
+.comprar{
+    padding: 5px;
+    background-color: #401234;
+    border-radius: 5px;
+ 
+}
+.cardio-link{
+    text-decoration: none;
+    color: #D9BAD1;
 
 }
 h5{   
