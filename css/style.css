@@ -31,7 +31,7 @@ body{
     font-size: 30px;
     color: #3a2d37;
     text-shadow: 0 0 0 10px #591848;
-    margin-left: 25px;
+    margin-left: 15px;
 
 }
 .collapse{
@@ -46,7 +46,7 @@ body{
 }
 
 .logo {
-    margin-left: 10px;
+    margin-left: 5px;
     max-width: 5rem;
 }
 .nav-list {
@@ -62,6 +62,16 @@ body{
     font-size: 40px;
     text-decoration: none;
     color:  #591848;
+}
+main .slogan{
+    margin-right: 10px;
+
+}
+main p{
+    color: #D9BAD1;
+    font-family: 'Strait', sans-serif;
+    font-size: 45px;
+    margin-left: 20px;
 }
 .material-symbols-outlined{
     margin-right: 40px;
@@ -167,4 +177,8 @@ footer {
     display: flex;
     justify-content: space-evenly;
     margin-left: 10px;
+}
+
+@media screen  {
+    
 }
