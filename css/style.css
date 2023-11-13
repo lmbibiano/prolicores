@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@1&family=Chokokutai&family=Love+Ya+Like+A+Sister&family=Pacifico&family=Strait&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Strait&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #591848;
+    
+
+
+}
+.navbar  {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #D9BAD1 !important;
+    box-shadow: 0 0 7px 10px #401234;
+}
+
+
+.container-fluid .navbar-brand{
+    font-family: "chokokutai", cursive;
+    font-size: 30px;
+    color: #3a2d37;
+    text-shadow: 0 0 0 10px #591848;
+    margin-left: 25px;
+
+}
+.collapse{
+    font-family: "Alumni Sans Inline One", italic;
+    font-size: 30px;
+    text-decoration: none;
+    color:  #591848;
+    border: #D9BAD1 solid;
+    background-color: #d9bad183;
+    align-items: end;
+
+}
+
+.logo {
+    margin-left: 10px;
+    max-width: 5rem;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.nav-list li a {
+    font-family: "Alumni Sans Inline One", italic;
+    font-size: 40px;
+    text-decoration: none;
+    color:  #591848;
+}
+.material-symbols-outlined{
+    margin-right: 40px;
+    font-size: 40px;
+    color: #401234;
+    text-shadow: 0 0 0 50px ;
+}
+marquee .renglones{
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+    color: #da71be !important;
+    font-family: "Alumni Sans Inline One", italic;
+    display: flex;
+    justify-content: space-evenly;
+}
+marquee li a{
+    text-decoration: none; 
+    font-size: 30px;
+    color: #D9BAD1;
+}
+marquee ul{
+    list-style: none;
+}
+span{
+    text-shadow: #401234;
+    
+}
+
+
+main{
+    width: 80%;
+    height: 500px;
+    background-image: url(../img/cerveza.jpg);
+    background-position:top;
+    background-size: cover;
+    margin: auto;
+    margin-top: 40px;
+    background-color:#401234;
+    border-color: #da71be 2px;
+    border-radius: 10px;   
+}
+article{
+    width: 100%;
+    
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align:center;
+    font-family: "Alumni Sans Inline One", italic;
+    font-size: 50px;
+    color: #D9BAD1;
+
+}
+.row{
+    margin: auto;
+    margin-left: 20px;
+    text-decoration: none; 
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.cardio{
+    height: 330px;
+    background-color: #D9BAD1;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-shadow:   0 0 7px 10px  #401234;
+}
+.cardio img{
+    height: 180px;
+    background-color: #D9BAD1;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    
+}
+.list-group {
+    text-decoration: none; 
+    list-style: none;
+    font-family: 'Strait', sans-serif;
+    color:#401234;
+
+}
+h5{   
+    color:#401234;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #401234;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Strait', sans-serif;
+    color: #D9BAD1;
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
