@@ -196,6 +196,7 @@ h5{
     /* padding: 10px; */
     transition: ease 0.3s;
     animation: efecto 1.2 infinite;
+    margin-bottom: 120px;
 
 }
 .container-boton:hover{
@@ -234,6 +235,7 @@ footer {
 }
 .redes{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     margin-left: 10px;
 }
