@@ -175,6 +175,13 @@ h2{
 }
 span{
     font-weight: 900;
+
+
+}
+a.ws{
+    font-size: 20px;
+    text-decoration: none;
+ 
 }
 .cardio-link{
     text-decoration: none;
@@ -184,6 +191,10 @@ span{
 }
 h5{   
     color:#401234;
+}
+.descrip .ws{
+    list-style: none;
+    text-decoration: none;
 }
 .container-boton{
     /* background-color: green; */
